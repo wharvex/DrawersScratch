@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35219.272
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DrawersScratch", "DrawersScratch\DrawersScratch\DrawersScratch.csproj", "{141978E5-7F76-49B1-9840-6D28DF22E988}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DrawersScratch.Android", "DrawersScratch\DrawersScratch.Android\DrawersScratch.Android.csproj", "{E6409114-3D5A-46F9-A127-C8818BD7282C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DrawersScratch.Desktop", "DrawersScratch\DrawersScratch.Desktop\DrawersScratch.Desktop.csproj", "{D83F62C9-CB4D-44EC-B1AD-73F768DF6358}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DrawersScratch.iOS", "DrawersScratch\DrawersScratch.iOS\DrawersScratch.iOS.csproj", "{D0FF41D7-76F1-42F3-A1A9-2F6003606083}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DrawersScratch.Browser", "DrawersScratch\DrawersScratch.Browser\DrawersScratch.Browser.csproj", "{465A4D43-721B-483C-8F31-3F9F9D786A75}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{141978E5-7F76-49B1-9840-6D28DF22E988}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{141978E5-7F76-49B1-9840-6D28DF22E988}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{141978E5-7F76-49B1-9840-6D28DF22E988}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{141978E5-7F76-49B1-9840-6D28DF22E988}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E6409114-3D5A-46F9-A127-C8818BD7282C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6409114-3D5A-46F9-A127-C8818BD7282C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6409114-3D5A-46F9-A127-C8818BD7282C}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{E6409114-3D5A-46F9-A127-C8818BD7282C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6409114-3D5A-46F9-A127-C8818BD7282C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E6409114-3D5A-46F9-A127-C8818BD7282C}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{D83F62C9-CB4D-44EC-B1AD-73F768DF6358}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D83F62C9-CB4D-44EC-B1AD-73F768DF6358}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D83F62C9-CB4D-44EC-B1AD-73F768DF6358}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D83F62C9-CB4D-44EC-B1AD-73F768DF6358}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D0FF41D7-76F1-42F3-A1A9-2F6003606083}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0FF41D7-76F1-42F3-A1A9-2F6003606083}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0FF41D7-76F1-42F3-A1A9-2F6003606083}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{D0FF41D7-76F1-42F3-A1A9-2F6003606083}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0FF41D7-76F1-42F3-A1A9-2F6003606083}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D0FF41D7-76F1-42F3-A1A9-2F6003606083}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{465A4D43-721B-483C-8F31-3F9F9D786A75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{465A4D43-721B-483C-8F31-3F9F9D786A75}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{465A4D43-721B-483C-8F31-3F9F9D786A75}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{465A4D43-721B-483C-8F31-3F9F9D786A75}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6D0BDB42-B3B0-41AD-BB49-313861033678}
+	EndGlobalSection
+EndGlobal
