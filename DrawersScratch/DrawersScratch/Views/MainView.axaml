@@ -28,24 +28,27 @@
             HorizontalAlignment="Center"
             VerticalAlignment="Center"
             Spacing="20">
-            <TextBlock Text="{Binding HeadingColumn1}" />
-            <Button Command="{Binding SetGreetingCommand}" Content="Add" />
+            <TextBlock Text="{Binding HeadingColumn0}" />
+            <TextBlock Margin="0 5">Name:</TextBlock>
+            <TextBox  Watermark="Enter your name" BorderThickness="2" Text="{Binding Username}"/>
+            <Button Command="{Binding HandleAddClickCommand}" Content="Add" />
         </StackPanel>
         <StackPanel
             Grid.Column="1"
             HorizontalAlignment="Center"
             VerticalAlignment="Center"
             Spacing="20">
-            <TextBlock Text="{Binding HeadingColumn2}" />
-            <Button Command="{Binding SetGreetingCommand}" Content="Test Sqlite" />
+            <TextBlock Text="{Binding HeadingColumn1}" />
+            <Button Command="{Binding HandleReadClickCommand}" Content="Read" />
+            <TextBlock Text="{Binding TextColumn1}" />
         </StackPanel>
         <StackPanel
             Grid.Column="2"
             HorizontalAlignment="Center"
             VerticalAlignment="Center"
             Spacing="20">
-            <TextBlock Text="{Binding HeadingColumn3}" />
-            <Button Command="{Binding SetGreetingCommand}" Content="Test Sqlite" />
+            <TextBlock Text="{Binding HeadingColumn2}" />
+            <TextBlock Text="{Binding TextColumn2}" />
         </StackPanel>
     </Grid>
 </UserControl>
